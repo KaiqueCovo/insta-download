@@ -1,4 +1,6 @@
-const puppeteer = require('puppeteer')
+import  '../style/index.css'
+
+/*const puppeteer = require("puppeteer")
 
 
 async function teste(e) {
@@ -6,9 +8,9 @@ async function teste(e) {
   e.preventDefault()
   console.log( e.target['username'].value )
   console.log('form pesado')
-  //const browser = await puppeteer.launch();
-  //const page = await browser.newPage();
-}
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+}*/
 
 /*(async () => {
   const browser = await puppeteer.launch();
