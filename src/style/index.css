@@ -1,0 +1,133 @@
+@import url("reset.css");
+
+
+header {
+  width: 100%;
+  height: 100px;
+}
+
+header h1 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+
+  padding: 20px;
+}
+
+main {
+  height: calc( 100vh - 100px );
+}
+
+
+.wrapper-search-intagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.wrapper-search-intagram > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-search-intagram div label {
+  margin-bottom: 20px;
+}
+
+.wrapper-search-intagram div input{
+  background-color: #f4f4f4;
+  width: 520px;
+  
+  text-align: center;
+  border-radius: 50px;
+
+  padding: 20px;
+}
+
+.wrapper-username-instagram button {
+  background: #CBB3FA;
+  color: #F4EFFE;
+
+  height: 50px;
+  width: 50px;
+
+  font-size: 20px;
+
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.wrapper-search-intagram div input::placeholder {
+  font-family: 'Comfortaa', sans-serif;
+
+  font-size: 24px;
+}
+
+.wrapper-content-instagram {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100%;
+
+  background-color: #f4f4f4;
+  
+  padding: 20px;
+  border-radius: 50px
+}
+
+
+.wrapper-content-instagram h3 {
+  color: #312E38;
+  font-weight: bold;
+}
+
+
+
+
+/** Modal */
+.modal {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+.modal-close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+}
+
+/** Overlay */
+.overlay {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+/** JS */
+.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}

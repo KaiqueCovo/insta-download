@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(180deg, #BBF3FF 0%, rgba(231, 221, 255, 0.83) 46.88%, #E7DDFF 100%);;
+  color: #4F4E70;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 16px;
+}
+
+button, input {
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}

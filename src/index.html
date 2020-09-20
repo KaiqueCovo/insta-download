@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Google fonts -->
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <!-- Font awesome -->
+
+  <link rel="stylesheet" href="./style/index.css">
+  <title>Insta download</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Insta</br>
+      Download
+    </h1>
+  </header>
+
+  <main>
+    <section class="wrapper-search-intagram">
+      <div>
+        <label>Fotos</label>
+        <form
+          action="#"
+          onsubmit="teste(event)"
+          class="wrapper-username-instagram">
+          <input type="text" placeholder="Username do perfil" name="username" />
+          <button type="submit" id="btn-modal"><i class="far fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </section>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="modal">
+      <button class="modal-close-btn" id="close-btn"><i class="fa fa-times" title="閉じる"></i></button>
+      モーダル
+    </div>
+    <!--<section class="wrapper-content-instagram">
+      <h3>Fotos</h3>
+
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHnk_mM6Mu4CKdR2Dbv7dc9dJzSne0-g2gsQ&usqp=CAU" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHnk_mM6Mu4CKdR2Dbv7dc9dJzSne0-g2gsQ&usqp=CAU" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHnk_mM6Mu4CKdR2Dbv7dc9dJzSne0-g2gsQ&usqp=CAU" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHnk_mM6Mu4CKdR2Dbv7dc9dJzSne0-g2gsQ&usqp=CAU" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHnk_mM6Mu4CKdR2Dbv7dc9dJzSne0-g2gsQ&usqp=CAU" />
+      </div>
+    </section>-->
+  </main>
+
+  <!--<script src="./js/modal.js">-->
+    <script src="./js/index.js"></script>
+
+  </script>
+  <script>
+    (async () => {
+      //Abrir o arquivo de dados JSON
+      /*console.log( 'saco')
+      const response = await fetch('../../instagram.json');
+      const data = await response.json();
+
+      console.log( data )
+
+      //Formatar os dados para enviar para o html
+      const htmlList = data.map(({ src }) => `<li><img src="${src}"/></li>`).join('')
+
+      //Colocar no html
+      document.querySelector('.container').innerHTML = htmlList*/
+    })()
+  </script>
+</body>
+</html>
